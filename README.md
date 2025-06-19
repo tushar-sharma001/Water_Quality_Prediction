@@ -40,21 +40,21 @@ The model predicts multiple water quality parameters such as:
 ---
 
 🧠 Methodology
-1.Data Collection
-=>Used publicly available water quality datasets (customized if required for the region).
-2.Data Preprocessing
-=>Handled missing values, normalized data, and selected relevant features.
-3.Feature Engineering
-=>Evaluated correlations between parameters.
-4.Modeling using RMS
-=>Applied regression techniques such as:
-  ->Linear Regression
-  ->Ridge/Lasso Regression
-  ->Random Forest Regressor (optional)
-  ->Evaluated models based on RMSE, R² Score, and MAE.
-5.Prediction and Analysis
-=>Predicted water quality indices such as pH, DO, conductivity, etc.
-=>Compared predicted results with actual values to determine model performance.
+- Data Collection
+   -- Used publicly available water quality datasets (customized if required for the region).
+- Data Preprocessing
+   -- Handled missing values, normalized data, and selected relevant features.
+- Feature Engineering
+   -- Evaluated correlations between parameters.
+- Modeling using RMS
+   -- Applied regression techniques such as:
+     - Linear Regression
+     - Ridge/Lasso Regression
+     - Random Forest Regressor (optional)
+     - Evaluated models based on RMSE, R² Score, and MAE.
+- Prediction and Analysis
+   -- Predicted water quality indices such as pH, DO, conductivity, etc.
+   -- Compared predicted results with actual values to determine model performance.
 
 ---
 
