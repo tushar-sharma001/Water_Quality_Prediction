@@ -1,7 +1,7 @@
 # Import all the necessary libraries
 import pandas as pd
 import numpy as np
-import joblib
+import scikit-learn
 import pickle
 import streamlit as st
 
