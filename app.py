@@ -1,9 +1,9 @@
 # Import all the necessary libraries
 import pandas as pd
 import numpy as np
-from sklearn.externals import joblib  
 import pickle
 import streamlit as st
+import joblib  
 
 # Load the model and structure
 model = joblib.load("pollution_model.pkl")
